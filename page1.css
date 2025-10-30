@@ -1,0 +1,833 @@
+.page1-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.page1-frame1 {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-text10 {
+  top: 14px;
+  left: 689px;
+  color: rgba(0, 0, 0, 1);
+  width: 542px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nosifer;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.page1-page-product-results {
+  gap: 64px;
+  top: 179px;
+  left: 283px;
+  width: 1354px;
+  height: 766px;
+  display: flex;
+  padding: 32px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-filter-menu {
+  gap: 24px;
+  width: 240px;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-section1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkbox-group1 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkbox-field1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkboxand-label1 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-checkbox1 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.page1-check1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.page1-text11 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-description-row {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-space {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-checkbox-field2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkboxand-label2 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-checkbox2 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.page1-check2 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.page1-text12 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-section2 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-text13 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text14 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-checkbox-group2 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkbox-field3 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkboxand-label3 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-checkbox3 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.page1-check3 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.page1-text15 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-checkbox-field4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.page1-checkboxand-label4 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-checkbox4 {
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(44, 44, 44, 1);
+}
+ 
+.page1-check4 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.page1-text16 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-section-product-grid {
+  gap: 48px;
+  width: 986px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+}
+ 
+.page1-card-grid {
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.page1-product-info-card1 {
+  gap: 16px;
+  width: 312.6666564941406px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image1 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_bp_b6sn1zs-1cb9-1500w.png");
+}
+ 
+.page1-body1 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text17 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text18 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong1 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text19 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-navlink1 {
+  display: contents;
+}
+ 
+.page1-product-info-card2 {
+  gap: 16px;
+  width: 312.66668701171875px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image2 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_ok0kdhtfkh-88bg-1500w.png");
+}
+ 
+.page1-body2 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text20 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text21 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong2 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text22 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-product-info-card3 {
+  gap: 16px;
+  width: 312.66668701171875px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image3 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_focnybs_ti-owan-1500w.png");
+}
+ 
+.page1-body3 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text23 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text24 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong3 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text25 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-product-info-card4 {
+  gap: 16px;
+  width: 312.6666564941406px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image4 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_ubspgtswja-gd6q-1500w.png");
+}
+ 
+.page1-body4 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text26 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text27 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong4 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text28 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-product-info-card5 {
+  gap: 16px;
+  width: 312.66668701171875px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image5 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_mfsudw5bot-mhcq-1500w.png");
+}
+ 
+.page1-body5 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text29 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text30 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong5 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text31 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-product-info-card6 {
+  gap: 16px;
+  width: 312.66668701171875px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.page1-image6 {
+  height: 247px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_kk_kql5gh0-oiup-1500w.png");
+}
+ 
+.page1-body6 {
+  gap: 8px;
+  width: 208px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.page1-text34 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.page1-text35 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-text-strong6 {
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.page1-text36 {
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+ 
+.page1-frame2 {
+  top: 115px;
+  left: 0px;
+  right: 0px;
+  width: 1027px;
+  height: 65px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.page1-navlink2 {
+  display: contents;
+}
+ 
+.page1-navigation-pill1 {
+  gap: 8px;
+  top: 0px;
+  left: 0px;
+  width: 207px;
+  height: 65px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+}
+ 
+.page1-text37 {
+  font-size: 48px;
+  align-self: flex-start;
+  text-align: center;
+  font-family: "Jura";
+}
+ 
+.page1-navlink3 {
+  display: contents;
+}
+ 
+.page1-navigation-pill2 {
+  gap: 8px;
+  top: 0px;
+  left: 410px;
+  width: 207px;
+  height: 65px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+}
+ 
+.page1-text38 {
+  font-size: 48px;
+  font-family: "Jura";
+}
+ 
+.page1-navlink4 {
+  display: contents;
+}
+ 
+.page1-navigation-pill3 {
+  gap: 8px;
+  top: 0px;
+  left: 820px;
+  width: 207px;
+  height: 65px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+}
+ 
+.page1-text39 {
+  font-size: 48px;
+  font-family: "Jura";
+}
+ 
+.page1-link {
+  display: contents;
+}
+ 
+.page1-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.page1-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.page1-text40 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
